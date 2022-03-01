@@ -49,7 +49,7 @@ probe_ssl_last_chain_expiry_timestamp_seconds -6.21355911e+10
 probe_ssl_last_chain_info{fingerprint_sha256="3abdd43e36a1e94295cf29ebf16fc1aaac0c61022627fdb592469080b739ef11"} 1
 # HELP probe_success Displays whether or not the probe was a success
 # TYPE probe_success gauge
-probe_success 1
+probe_success 0
 # HELP probe_tls_version_info Contains the TLS version used
 # TYPE probe_tls_version_info gauge
 probe_tls_version_info{version="TLS 1.3"} 1
